@@ -1,0 +1,34 @@
+<div class="login-page">
+  <div class="login-form">
+    <img
+      ngSrc="../../assets/images/logo-svg.svg"
+      height="200"
+      width="200"
+      alt=""
+    />
+
+    <div class="card flex justify-content-center login-input">
+      <p-floatLabel>
+        <input pInputText id="username" [(ngModel)]="value" />
+        <label for="username">Username</label>
+      </p-floatLabel>
+    </div>
+    <div class="card flex justify-content-center">
+      <p-floatLabel>
+        <input pInputText id="username" [(ngModel)]="value" />
+        <label for="username">Password</label>
+      </p-floatLabel>
+    </div>
+    <div class="card flex justify-content-center">
+        <p-button label="Submit" (click)="onSubmit()" />
+    </div>
+  </div>
+  <div class="image-container">
+    <img
+      ngSrc="../../assets/images/login-page.png"
+      height="200"
+      width="200"
+      alt=""
+    />
+  </div>
+</div>
